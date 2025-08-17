@@ -33,3 +33,4 @@ Thumbs.db
 
 # Oracle DB connection credentials (optional)
 config.py
+data
