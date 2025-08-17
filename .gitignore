@@ -1,0 +1,35 @@
+# Python bytecode files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Environment variables
+.env
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+*.bak
+
+# Data files (Large CSVs that should not be tracked)
+data/raw_reviews_*.csv
+data/cleaned_reviews_*.csv
+
+# Virtual environment folders
+venv/
+env/
+
+# IDE configuration files (VSCode example)
+.vscode/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Oracle DB connection credentials (optional)
+config.py
